@@ -73,48 +73,6 @@
     display: none;
     z-index: 1050;
 }
-/* ----- navigation ARROWS ----- */
-.vbox-next, .vbox-prev{
-    position: fixed;
-    top: 50%;
-    margin-top: -15px;
-    overflow: hidden;
-    cursor: pointer;
-    display: block;
-    width: 45px;
-    height: 45px;
-    z-index: 1050;
-}
-.vbox-next span, .vbox-prev span{
-    position: relative;
-    width: 20px;
-    height: 20px;
-    border: 2px solid transparent;
-    border-top-color: #B6B6B6;
-    border-right-color: #B6B6B6;
-    text-indent: -100px;
-    position: absolute;
-    top: 8px;
-    display: block;
-}
-.vbox-prev{
-    left: 15px;
-}
-.vbox-next{
-    right: 15px;
-}
-.vbox-prev span{
-    left: 10px;
-    -ms-transform: rotate(-135deg);
-    -webkit-transform: rotate(-135deg);
-    transform: rotate(-135deg);
-}
-.vbox-next span{
-    -ms-transform: rotate(45deg);
-    -webkit-transform: rotate(45deg);
-    transform: rotate(45deg);
-    right: 10px;
-}
 /* ------- inline window ------ */
 .vbox-inline{
     width: 420px;
@@ -128,37 +86,49 @@
 }
 /* ------- Video & iFrames window ------ */
 .venoframe{
-    max-width: 100%;
     width: 100%;
     border: none;
-    width: 100%;
-    height: 260px;
-    height: 70vh;
-}
-.venoframe.vbvid{
-    height: 260px;
-}
-@media (min-width: 768px) {
-    .venoframe, .vbox-inline{
-        width: 90%;
-        height: 360px;
-        height: 70vh;
-    }
-    .venoframe.vbvid{
+    height: 720px;
+}@media (max-width: 992px) {
+    .venoframe{
         width: 640px;
-        height: 360px;
+        height: 480px;
     }
 }
-@media (min-width: 992px) {
-    .venoframe, .vbox-inline{
-        max-width: 1200px;
-        width: 80%;
-        height: 540px;
-        height: 70vh;
+@media (max-width: 767px) {
+
+    .venoframe-container {
+        -webkit-overflow-scrolling:touch;
+        overflow-y:scroll;
+        width:100%;
+        height:500px;
+        width: 420px;
+        height: 315px;
     }
-    .venoframe.vbvid{
-        width: 960px;
-        height: 540px;
+
+    .venoframe{
+        width: 420px;
+        height: 315px;
+    }
+}
+@media (max-width: 460px) {
+
+    .vbox-inline{
+        width: 100%;
+    }
+
+    .venoframe-container {
+      -webkit-overflow-scrolling:touch;
+      overflow-y:scroll;
+      width:100%;
+      height:400px;
+      width: 100%;
+      height: 260px;
+    }
+
+    .venoframe{
+        width: 100%;
+        height: 260px;
     }
 }
 /* 
