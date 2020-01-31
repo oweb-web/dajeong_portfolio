@@ -67,6 +67,7 @@
 .personal_data .character{
     background-image: url(../images/bg.jpg);
     background-size: cover;
+    opacity: 0.9;
 }
 .personal_data h1{
     font-size: 2.6em;
