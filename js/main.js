@@ -131,7 +131,7 @@ $(document).ready(function(){
     });
     $('.venobox4').venobox({
     framewidth: '860px',        // default: ''
-    frameheight: '6580px',       // default: ''
+    frameheight: '6581px',       // default: ''
     // border: '10px',             // default: '0'
     // bgcolor: '#5dff5e',         // default: '#fff'
     titleattr: 'data-title',    // default: 'title'
