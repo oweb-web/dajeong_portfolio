@@ -5,7 +5,7 @@ $(document).ready(function(){
         sectionsColor: ['#ece5db'],
         navigation: true,
         navigationPosition: 'left',
-        navigationTooltips: ['Main','Profile', 'Web &amp; Mobile', 'Contact Me']
+        navigationTooltips: ['Main','Profile', 'Web &amp; Mobile', 'gallery', 'Contact Me']
     });
 
 });
@@ -132,6 +132,86 @@ $(document).ready(function(){
     $('.venobox4').venobox({
     framewidth: '860px',        // default: ''
     frameheight: '6581px',       // default: ''
+    // border: '10px',             // default: '0'
+    // bgcolor: '#5dff5e',         // default: '#fff'
+    titleattr: 'data-title',    // default: 'title'
+    numeratio: false,            // default: false
+    infinigall: false,            // default: false
+    spinner: 'three-bounce'
+    });
+    $('.vb01').venobox({
+    framewidth: '1100px',        // default: ''
+    frameheight: '3456px',       // default: ''
+    // border: '10px',             // default: '0'
+    // bgcolor: '#5dff5e',         // default: '#fff'
+    titleattr: 'data-title',    // default: 'title'
+    numeratio: false,            // default: false
+    infinigall: false,            // default: false
+    spinner: 'three-bounce'
+    });
+    $('.vb02').venobox({
+    framewidth: '1200px',        // default: ''
+    frameheight: '3640px',       // default: ''
+    // border: '10px',             // default: '0'
+    // bgcolor: '#5dff5e',         // default: '#fff'
+    titleattr: 'data-title',    // default: 'title'
+    numeratio: false,            // default: false
+    infinigall: false,            // default: false
+    spinner: 'three-bounce'
+    });
+    $('.vb03').venobox({
+    framewidth: '980px',        // default: ''
+    frameheight: '3520px',       // default: ''
+    // border: '10px',             // default: '0'
+    // bgcolor: '#5dff5e',         // default: '#fff'
+    titleattr: 'data-title',    // default: 'title'
+    numeratio: false,            // default: false
+    infinigall: false,            // default: false
+    spinner: 'three-bounce'
+    });
+    $('.vb04').venobox({
+    framewidth: '1100px',        // default: ''
+    frameheight: '3319px',       // default: ''
+    // border: '10px',             // default: '0'
+    // bgcolor: '#5dff5e',         // default: '#fff'
+    titleattr: 'data-title',    // default: 'title'
+    numeratio: false,            // default: false
+    infinigall: false,            // default: false
+    spinner: 'three-bounce'
+    });
+    $('.vb05').venobox({
+    framewidth: '835px',        // default: ''
+    frameheight: '3236px',       // default: ''
+    // border: '10px',             // default: '0'
+    // bgcolor: '#5dff5e',         // default: '#fff'
+    titleattr: 'data-title',    // default: 'title'
+    numeratio: false,            // default: false
+    infinigall: false,            // default: false
+    spinner: 'three-bounce'
+    });
+    $('.vb06').venobox({
+    framewidth: '1000px',        // default: ''
+    frameheight: '2568px',       // default: ''
+    // border: '10px',             // default: '0'
+    // bgcolor: '#5dff5e',         // default: '#fff'
+    titleattr: 'data-title',    // default: 'title'
+    numeratio: false,            // default: false
+    infinigall: false,            // default: false
+    spinner: 'three-bounce'
+    });
+    $('.vb07').venobox({
+    framewidth: '1000px',        // default: ''
+    frameheight: '2548px',       // default: ''
+    // border: '10px',             // default: '0'
+    // bgcolor: '#5dff5e',         // default: '#fff'
+    titleattr: 'data-title',    // default: 'title'
+    numeratio: false,            // default: false
+    infinigall: false,            // default: false
+    spinner: 'three-bounce'
+    });
+    $('.vb08').venobox({
+    framewidth: '995px',        // default: ''
+    frameheight: '1633px',       // default: ''
     // border: '10px',             // default: '0'
     // bgcolor: '#5dff5e',         // default: '#fff'
     titleattr: 'data-title',    // default: 'title'
